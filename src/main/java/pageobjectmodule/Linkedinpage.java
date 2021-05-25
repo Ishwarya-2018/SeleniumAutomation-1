@@ -12,7 +12,7 @@ public class Linkedinpage {
         return element;
     }
 
-    public static  WebElement password (WebDriver driver){
+    public static  WebElement password (WebDriver driver){                              //TRY BY USING DIFFERENT LOCATORS AS WELL
         element = driver.findElement(By.xpath("//input[@id = 'password']"));
         return element;
     }
